@@ -25,3 +25,10 @@ print("\nAfter Deletion:")
 for row in cur.execute("SELECT * FROM Students"):
     print(row)
 conn.close()  
+output:
+Students:
+(1, 'Alice', 20, 'A')
+(2, 'Bob', 21, 'B')
+
+After Deletion:
+(2, 'Bob', 21, 'B')
